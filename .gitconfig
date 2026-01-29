@@ -1,0 +1,8 @@
+[alias]
+	co = checkout
+	bo = branch --sort=-committerdate
+	wip = commit -m \"WIP\"
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
+[push]
+	autoSetupRemote = true
